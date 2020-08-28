@@ -11,11 +11,11 @@
 									<a href="index.html" class="logo"><strong>Circulair Tiny House Groningen</strong></a>
 									<ul class="icons">
 										<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>-->
-										<li><a href="https://www.facebook.com/frank.kroondijk" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="https://www.linkedin.com/in/frankkroondijk/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-										<li><a href="https://www.instagram.com/frankkroondijk/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="https://www.facebook.com/cascool.org" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="https://www.linkedin.com/company/dlab-friesland/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+										<li><a href="https://www.instagram.com/dlab_lwd/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 										<!-- <li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>		-->
-                   						<li><nav id="nav"><router-link to="/login"><div id="un">{{loginLabel}}</div></router-link></nav></li>
+                   						<!--<li><nav id="nav"><router-link to="/login"><div id="un">{{loginLabel}}</div></router-link></nav></li>	-->
 									</ul>
 								</header>
 
@@ -54,11 +54,12 @@
 									<ul>
                         
 										<li><router-link to="/">Home</router-link></li>
-										<li><router-link to="/about">About</router-link></li>
-										<li><router-link to="/projects" >Projects</router-link></li>
 										<li><router-link to="/blog" >Blog</router-link></li>
-										<li><router-link to="/courses" >Courses</router-link></li>
+										<li><router-link to="/about">About</router-link></li>
+										<li><router-link to="/Sponsors" >Sponsors</router-link></li>
+										
 										<!--
+										<li><router-link to="/courses" >Courses</router-link></li>									
 										<li><a href="index.html">Homepage</a></li>
 										<li><a href="generic.html">Generic</a></li>
 										<li><a href="elements.html">Elements</a></li>
