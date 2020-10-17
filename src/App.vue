@@ -57,7 +57,8 @@
 										<li><router-link to="/blog" >Blog</router-link></li>
 										<li><router-link to="/about">About</router-link></li>
 										<li><router-link to="/Sponsors" >Sponsors</router-link></li>
-										
+											<li><router-link to="/Partners" >Partners</router-link></li>
+											<li><router-link to="/Team" >Team</router-link></li>
 										<!--
 										<li><router-link to="/courses" >Courses</router-link></li>									
 										<li><a href="index.html">Homepage</a></li>

@@ -4,9 +4,10 @@ import Home from '../views/Home.vue'
 import Projects from '../views/Projects.vue'
 import Blog from '../views/Blog.vue'
 import Login from '../views/Login.vue'
-import Courses from '../views/Courses.vue'
+import Sponsors from '../views/Sponsors.vue'
 import Course from '../views/Course.vue'
-
+import Partners from '../views/Partners.vue'
+import Team from '../views/Team.vue'
 Vue.use(VueRouter)
 
   const routes = [
@@ -39,10 +40,20 @@ Vue.use(VueRouter)
   component: Login
   },
   {
-  path: '/courses',
-  name: 'Courses',
-  component: Courses
+  path: '/sponsors',
+  name: 'Sponsors',
+  component: Sponsors
   },
+  {
+    path: '/partners',
+    name: 'Partners',
+    component: Partners
+    },
+    {
+      path: '/team',
+      name: 'Team',
+      component: Team
+      },
   {
   path: '/course/:name',
   name: 'Course',

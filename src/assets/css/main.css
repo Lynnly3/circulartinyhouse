@@ -78,7 +78,12 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #ffffff; }
+  background: #ffffff;
+ background-image: url("/images/achtergrond.png"); 
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+ 
   body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -1929,7 +1934,7 @@ button,
   -webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-  background-color: #f5f6f7;
+  background-color: hsl(0, 46%, 95%, .8);
   font-size: 0.9em;
   position: -webkit-sticky;
   position: sticky;
@@ -1938,6 +1943,8 @@ button,
   #sidebar h2 {
     font-size: 1.38889em; }
   #sidebar > .inner {
+  
+    background-color: hsl(0, 46%, 95%, .8);
     padding: 2.22222em 2.22222em 2.44444em 2.22222em ;
     position: relative;
     width: 26em; }
@@ -1953,6 +1960,7 @@ button,
         padding-bottom: 0; }
     #sidebar > .inner > .alt {
       background-color: #eff1f2;
+      opacity: 0.5;
       border-bottom: 0;
       margin: -2.22222em 0 4.44444em -2.22222em;
       padding: 2.22222em;
@@ -2005,6 +2013,7 @@ button,
     margin-left: -26em; }
   @media screen and (max-width: 1680px) {
     #sidebar {
+      
       width: 24em; }
       #sidebar > .inner {
         padding: 1.66667em 1.66667em 1.33333em 1.66667em ;
