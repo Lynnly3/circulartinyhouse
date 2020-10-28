@@ -17,9 +17,12 @@
                 <h5>{{ item.fields.PublishDate }} </h5>
             </header>
             <p><vue-markdown>{{ item.fields.Article }}</vue-markdown></p>
+            <!--
             <ul class="actions">
                 <li><a href="#" class="button big">Learn More</a></li>
             </ul>
+            -->
+
         </div>
 
     </section>
