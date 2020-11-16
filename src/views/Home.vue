@@ -5,7 +5,7 @@
 									<div class="content">
 										<header>
 											<h1>Circular Tiny House</h1>
-											<p>What it is all about</p>
+											<p>What it is all about???</p>
 										</header>
 										<p>Een mooi verhaal over het huisje</p>
 										<ul class="actions">
